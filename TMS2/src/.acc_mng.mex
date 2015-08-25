@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="accbase" location="850,10" size="460,350">
+    <action name="acc" location="15,23" size="150,40" />
+    <action name="add" location="260,23" size="150,40" />
+    <action name="del" location="15,163" size="150,40" />
+    <action name="update" location="260,163" size="150,40" />
+    <action name="ids" location="15,303" size="150,40" />
+    <action name="updatepwd" location="260,303" size="150,40" />
+  </package>
+</Struts2Diagram>
+

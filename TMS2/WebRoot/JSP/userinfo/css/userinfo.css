@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+.removeUser {
+background-image: url(../../../icons/user_delete.png) !important;
+}
+.addUser {
+background-image: url(../../../icons/user_add.png) !important;
+}
+.showUser {
+background-image: url(../../../icons/user.png) !important;
+}
+.editUser {
+background-image: url(../../../icons/user_edit.png) !important;
+}
+.search-botton {
+background-image: url(../../../icons/searchbtn.png) !important;
+}

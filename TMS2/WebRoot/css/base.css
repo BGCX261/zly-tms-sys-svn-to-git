@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.remove {
+background-image: url(../icons/delete.gif) !important;
+}
+.add {
+background-image: url(../icons/add.gif) !important;
+}
+.addbug {
+background-image: url(../icons/bug_add.png) !important;
+}
+.removebug {
+background-image: url(../icons/bug_delete.png) !important;
+}
+.bug {
+background-image: url(../icons/bug.png) !important;
+}
+.search-botton {
+background-image: url(../icons/searchbtn.png) !important;
+}

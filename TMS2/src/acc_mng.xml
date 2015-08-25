@@ -1,0 +1,17 @@
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	
+	<!-- 用户基本信息相关action  -->
+	<package name="accbase" extends="json" namespace="/acc">
+		<action name="queryAccInfo" class="tms.web.action.accMng.AccBase"
+			method="queryAccInfo">
+		</action>
+		<action name="updatepwd" class="tms.web.action.accMng.AccBase"
+			method="updatePwd">
+		</action>
+	</package>
+	
+</struts>

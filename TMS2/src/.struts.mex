@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="json" location="260,690" size="170,70" />
+  <package name="login" location="0,0" size="0,0">
+    <action name="login" location="0,0" size="0,0" />
+  </package>
+  <package name="userinfo" location="0,0" size="0,0">
+    <action name="userinfo" location="0,0" size="0,0" />
+    <action name="add" location="0,0" size="0,0" />
+    <action name="update" location="0,0" size="0,0" />
+    <action name="delete" location="0,0" size="0,0" />
+  </package>
+  <package name="caseinfo" location="0,0" size="0,0">
+    <action name="caseinfo" location="0,0" size="0,0" />
+    <action name="add" location="0,0" size="0,0" />
+    <action name="update" location="0,0" size="0,0" />
+    <action name="delete" location="0,0" size="0,0" />
+    <action name="addbug" location="0,0" size="0,0" />
+  </package>
+  <package name="bug" location="0,0" size="0,0">
+    <action name="bug" location="0,0" size="0,0" />
+    <action name="add" location="0,0" size="0,0" />
+    <action name="update" location="0,0" size="0,0" />
+    <action name="delete" location="0,0" size="0,0" />
+  </package>
+  <package name="promanage" location="0,0" size="0,0">
+    <action name="promanage" location="0,0" size="0,0" />
+    <action name="add" location="0,0" size="0,0" />
+    <action name="update" location="0,0" size="0,0" />
+    <action name="delete" location="0,0" size="0,0" />
+  </package>
+  <include file="acc_mng.xml" location="0,0" size="0,0" />
+  <extendsEdge source="login" target="json" routing="0" />
+  <extendsEdge source="userinfo" target="json" routing="0" />
+  <extendsEdge source="caseinfo" target="json" routing="0" />
+  <extendsEdge source="bug" target="json" routing="0" />
+  <extendsEdge source="promanage" target="json" routing="0" />
+</Struts2Diagram>
+
